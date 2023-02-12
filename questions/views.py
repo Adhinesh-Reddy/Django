@@ -14,7 +14,7 @@ from django.http import HttpResponse
 
 from django.contrib import messages
 def login_view(request):
-    return HttpResponse("<h1> My first Django App! yey</h1>")
+    return HttpResponse("<h1> yey</h1>")
    # messages.info(request, 'Account not found')
     if request.method == 'POST':
         email = request.POST.get('email')
