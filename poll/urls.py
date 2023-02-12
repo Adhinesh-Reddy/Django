@@ -15,9 +15,7 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path
-from questions.views import (question_detail , 
-save_question_result ,login_view , register_view ,
- dashboard ,create_poll , see_answers)
+from questions.views import login_view
 
 
 urlpatterns = [
