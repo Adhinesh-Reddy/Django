@@ -22,14 +22,5 @@ save_question_result ,login_view , register_view ,
 
 urlpatterns = [
     path('' , login_view , name="login"),
-    path('register/' , register_view , name="register_view"),
-    path('dashboard/' , dashboard , name="dashboard"),
-    path('create_poll/' , create_poll , name="create_poll"),
-path('see_answers/' , see_answers , name="see_answers"),
-
-
-
-    path('question/<question_uid>/' , question_detail , name="question_detail"),
-    path('api/save_question_result/' , save_question_result),
-    path('admin/', admin.site.urls),
+    
 ]
